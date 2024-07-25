@@ -1,0 +1,148 @@
+#header {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+#content {
+    background: #000000;
+    color: #ffffff;
+}
+
+#sidebar {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+.button,
+input[type=submit],
+input[type=button],
+.submit-row input,
+a.button {
+    background: #333;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea,
+select,
+.vTextField {
+    border: 1px solid #555;
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+table {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+table tr {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+table tr:hover {
+    background-color: #444;
+}
+
+table tr.selected {
+    background-color: #555 !important;
+}
+
+a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66ccff;
+    text-decoration: underline;
+}
+
+#footer {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.message {
+    background: #333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.login-form {
+    background: #1a1a1a;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+input,
+textarea,
+select {
+    color: #ffffff;
+}
+
+button,
+input[type=submit],
+input[type=button] {
+    background: #333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type=submit]:hover,
+input[type=button]:hover {
+    background: #555;
+}
+
+table td,
+table th {
+    color: #ffffff;
+}
+
+table td,
+table th {
+    padding: 10px;
+}
+
+tr.selected,
+tr.selected td {
+    background-color: #555 !important;
+}

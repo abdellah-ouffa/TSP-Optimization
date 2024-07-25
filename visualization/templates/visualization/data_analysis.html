@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+            height: auto;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        button:active {
+            background-color: #777;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        button::after {
+            content: '';
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-left: 10px;
+            background: url('https://img.icons8.com/ios-filled/50/ffffff/home.png') no-repeat center center;
+            background-size: 16px 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Algorithm Performance Analysis</h1>
+        <img src="data:image/png;base64,{{ graphic }}" alt="Algorithm Performance Comparison">
+        <button onclick="window.location.href='/'">Return to Home</button>
+    </div>
+</body>
+
+</html>

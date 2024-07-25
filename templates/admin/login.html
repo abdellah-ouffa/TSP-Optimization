@@ -1,0 +1,61 @@
+{% extends "admin/login.html" %}
+{% load i18n %}
+
+{% block content %}
+{{ block.super }}
+<style>
+    .custom-button {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+        margin: 10px 5px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .custom-button:hover {
+        background-color: #555;
+    }
+
+    .submit-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    .submit-row input[type="submit"] {
+        width: 150px !important;
+        margin: 10px 5px !important;
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .submit-row input[type="submit"]:hover {
+        background-color: #555;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var submitRow = document.querySelector('.submit-row');
+        if (submitRow) {
+            var returnButton = document.createElement('a');
+            returnButton.href = '/';
+            returnButton.className = 'custom-button';
+            returnButton.textContent = 'Return to Home';
+            submitRow.appendChild(returnButton);
+        }
+    });
+</script>
+{% endblock %}
